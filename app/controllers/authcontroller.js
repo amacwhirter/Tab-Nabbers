@@ -234,7 +234,7 @@ router.get("/profile", isLoggedIn, function(req, res) {
         }
     }).then(function(data) {
         // console.log(data.get());
-        currentUser.institution = data.get().institution;
+        //currentUser.institution = data.get().institution;
         //console.log(currentUser);
         console.log(currentUser);
         // console.log(req.user);
